@@ -12,10 +12,9 @@ export class DataBindingComponent implements OnInit {
   urlImagem: String = 'http://lorempixel.com/400/200/nature/';
   valorAtual: String;
   valorSalvo: String;
-
   cursoAngular: Boolean = true;
-
   isMouserOver: Boolean = false;
+  nome: String = 'abc';
 
   getValor() {
     return 1;
